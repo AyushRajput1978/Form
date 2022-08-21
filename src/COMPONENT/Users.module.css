@@ -1,0 +1,28 @@
+.user-container {
+  border: 1px solid #999;
+  box-shadow: 2px 2px 5px 5px#999;
+  background-color: #ddd;
+  font-size: 1rem;
+  padding: 1rem;
+  width: 80vw;
+  margin-left: 9rem;
+  margin-bottom: 2rem;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.detail-header {
+  text-decoration: underline;
+  margin-bottom: 0.5rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.title {
+  font-weight: 600;
+  margin-right: 0.5rem;
+}

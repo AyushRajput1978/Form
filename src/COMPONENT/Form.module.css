@@ -1,0 +1,77 @@
+.container {
+  margin-left: 14rem;
+}
+.form-container {
+  border: 1px solid #333;
+  width: 70vw;
+  box-shadow: 2px 2px 5px 5px#999;
+  background-color: #eee;
+  margin: 2rem 0;
+}
+
+/* Haaders */
+.header {
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-decoration: underline;
+  margin: 0 1rem;
+}
+.sub-header {
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  margin: 0 1rem;
+}
+
+/*Details */
+.personal,
+.contact,
+.address,
+.other {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 1rem;
+  justify-content: stretch;
+}
+/* Speacial helper classes */
+.id {
+  grid-column: 2/4;
+}
+.gurdian,
+.emergency {
+  grid-column: 1/3;
+}
+
+.required {
+  color: red;
+  font-size: 1.2rem;
+}
+
+.special-selector {
+  margin-right: 0.6rem;
+  padding: 0.3rem 0.1rem;
+}
+/* button */
+.btn {
+  margin: 1rem;
+}
+.btn button {
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  padding: 0.2rem 0.5rem;
+  cursor: pointer;
+}
+.cancel {
+  margin-right: 0.5rem;
+}
+.submit {
+  background-color: green;
+  color: #fff;
+}
+
+/* Field */
+.field {
+  font-size: 1rem;
+  padding: 0.3rem 0.1rem;
+  width: 12rem;
+  font-size: 0.8rem;
+}
